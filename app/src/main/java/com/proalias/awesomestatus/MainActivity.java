@@ -316,7 +316,7 @@ public class MainActivity extends FragmentActivity {
                 .setContentTitle("Awesome Status!")
                 .setContentDescription(
                         "Awesome Status for Android is a simple app to update your facebook status")
-                .setContentUrl(Uri.parse("http://proalias.com/awesomestatusforandroid/icon.png"))
+                .setContentUrl(Uri.parse("https://play.google.com/store/apps/details?id=com.proalias.awesomestatus"))
                 .build();
         if (canPresentShareDialog) {
             shareDialog.show(linkContent);
